@@ -45,18 +45,15 @@
 // >= greater then equal to 
 // != not eual to  
 
-//var Name =prompt ("Enter Name")
-// document.writeln(Name)
-//var marks1 = +prompt ("Enter English Subject Marks")
-//var marks2 = +prompt ("Enter Urdu Subject Marks")
-//var marks3 = +prompt ("Enter Islamiyat Subject Marks")
-//var marks4 = +prompt ("Enter Boilogy Subject Marks")
-//var marks5 = +prompt ("Enter Chemistry Subject Marks")
-//var total =(marks1 + marks2 + marks3 + marks4 + marks5 )
-//var persan =(total / 500 * 100 + "%")  
-// document.writeln(persan)
-
-var persan = prompt('Enter Persantage')
+var Name =prompt ("Enter Name")
+ document.writeln(Name)
+var marks1 = +prompt ("Enter English Subject Marks")
+var marks2 = +prompt ("Enter Urdu Subject Marks")
+var marks3 = +prompt ("Enter Islamiyat Subject Marks")
+var marks4 = +prompt ("Enter Boilogy Subject Marks")
+var marks5 = +prompt ("Enter Chemistry Subject Marks")
+var total =(marks1 + marks2 + marks3 + marks4 + marks5 )
+var persan =(total / 500 * 100 )  
 if(persan >= 90 && persan < 101){
   document.writeln("A+" + "" + "Grade")
 }
